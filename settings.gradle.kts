@@ -1,0 +1,1 @@
+rootProject.name = "value-lab-2"
