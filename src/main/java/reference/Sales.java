@@ -8,6 +8,12 @@ public class Sales {
     private int totalQuantity; // 게임의 누적 수량
     private long totalPrice; // 게임의 누적 금액
 
+    public Sales(Game game) {
+        this.game = game;
+        this.totalQuantity = 0;
+        this.totalPrice = 0;
+    }
+
     /**
      * 판매 금액, 판매 수량 업데이트
      * @param qunatity
@@ -23,5 +29,9 @@ public class Sales {
      */
     public long profit() {
         return (long) Math.ceil(totalPrice* 0.2);
+    }
+
+    public long totalAmount() {
+        return totalPrice;
     }
 }
