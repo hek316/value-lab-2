@@ -7,7 +7,6 @@ import com.fasterxml.jackson.annotation.PropertyAccessor;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
-import single.responsibility.v2.solution.Schedule;
 
 import java.time.Duration;
 import java.time.LocalTime;
