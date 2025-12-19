@@ -11,6 +11,7 @@ import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import java.time.Duration;
 import java.time.LocalTime;
 
+// JSON 포맷을 변경하고 싶은 경우 ObjectMapper 만 수정하면 됨
 public class ScheduleJson {
     private Schedule schedule;
     private ObjectMapper mapper;
