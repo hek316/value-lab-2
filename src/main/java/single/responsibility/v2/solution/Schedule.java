@@ -5,6 +5,7 @@ import java.time.LocalDate;
 import java.time.LocalTime;
 
 /**
+ * 변경의 이유: 일정 기본 정보가 변경될 때
  * 제목,  시작시간, 소요시간
  * 회의를 등록할 수 있는 클래스
  */
